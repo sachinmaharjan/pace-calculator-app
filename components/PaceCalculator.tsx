@@ -86,10 +86,12 @@ export default function PaceCalculator() {
             keyboardType="numeric"
             style={styles.timeInput}
           />
-          <InputAccessoryView nativeID={accessoryId} style={styles.accessory}>
+          <InputAccessoryView nativeID={accessoryId}>
+            <View style={styles.accessory}>
               <TouchableOpacity onPress={() => Keyboard.dismiss()} style={styles.checkButton}>
-                <MaterialIcons name="check" size={24} color="#4CAF50" /> {/* green check */}
+                <MaterialIcons name="check" size={24} color="#4CAF50" />
               </TouchableOpacity>
+            </View>
           </InputAccessoryView>
         </View>
         

@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
 
   },
   body: {
-  background: "#ffffff",
+  backgroundColor: "#ffffff",
   color: "#171717",
 },
 hangright: {
