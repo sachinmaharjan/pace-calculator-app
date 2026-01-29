@@ -38,6 +38,15 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 eas build -p ios --profile production
 ```
 
+6. Once the app is build you will get a link
+```bash
+✔ Build finished
+🍏 iOS app:
+https://expo.dev/artifacts/eas/fGmRcNjx918U8zJC1Lk4Bg.ipa
+```
+
+7. Download the .ipa file and use "Transporter" mac app to upload the .ipa files into App Store Connect
+
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
