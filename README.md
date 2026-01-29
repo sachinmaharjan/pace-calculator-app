@@ -22,17 +22,18 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo prebuild
    expo login
    npx expo run:ios
-  ```
+   ```
 
 4. Build for iOS app
+
   ```bash
    npm install -g eas-cli
    npx expo build:ios
    eas login
    npx expo build:ios
    eas build:configure
-   
-   ```
+ ```
+
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
